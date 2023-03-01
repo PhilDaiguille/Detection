@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+/* RESET 2022 */
+html{
+	font-size:62.5%;
+	scroll-behavior:smooth;
+}
+body{
+	font: 1.6rem 'Golos Text', sans-serif;
+	margin:0;
+}
+section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+*{ 
+	box-sizing:border-box;
+}
+button{
+	padding:0;
+	border:0;
+	background-color:transparent;
+} 
+img{
+	display: inline-block;
+	width: 100%;
+	object-fit: cover;
+}
+/*HEADER */
+header{
+	text-align: center;
+}
+header h1{
+	width: fit-content;
+	margin: 1rem auto;
+	padding: 1.5rem;
+	border-radius: .75rem;
+	color: #fff;
+	background-color: rgb(215, 0, 0);
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+
+
+/* MAIN */
+html.swal2-shown.swal2-height-auto body.swal2-shown.swal2-height-auto div.swal2-container.swal2-center.swal2-backdrop-show div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show{
+	width: 40vw;
+	min-height: 50vh;
+}
+html.swal2-shown.swal2-height-auto body.swal2-shown.swal2-height-auto div.swal2-container.swal2-center.swal2-backdrop-show div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show div.swal2-actions button.swal2-confirm.swal2-styled{
+	padding: 3rem 6rem;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+html.swal2-shown.swal2-height-auto body.swal2-shown.swal2-height-auto div.swal2-container.swal2-center.swal2-backdrop-show div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show h2#swal2-title.swal2-title{
+	font-size: 3rem;
+	color: red;
+	font-weight: bold;
+}
+html.swal2-shown.swal2-height-auto body.swal2-shown.swal2-height-auto div.swal2-container.swal2-center.swal2-backdrop-show div.swal2-popup.swal2-modal.swal2-icon-error.swal2-show div#swal2-html-container.swal2-html-container{
+	font-size: 2rem;
+	font-weight: bold;
+}
+/* FOOTER */
+footer{
+	text-align: center;
+	padding: 1rem;
+}
+
+
+/* @Copyright - PhilDaiguille*/
